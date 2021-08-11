@@ -64,3 +64,4 @@ function change() {
 }
 
 
+document.addEventListener('keypress', battery);
