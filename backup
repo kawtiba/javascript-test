@@ -1,0 +1,68 @@
+<script>
+        console.log("Hello")
+
+        let x = 1000
+        let dec = 100.5
+
+        let msg = "Hello World !!!";
+
+        let arr = [1,2,3,"viva lalgerie"]
+
+        let user = {
+            name: "kawtiba",
+            address: "space",
+            phone: "123",
+            experience: {
+                school: 0,
+                professional: 10
+            },
+            previousAddresses: [
+                "sahara", 
+                "the ocean",
+                "planet mars",
+                "the sun"
+            ]
+        }
+
+        console.log(user.previousAddresses.length);
+
+        for (let i = 0; i < user.previousAddresses.length; i++) {
+            // i = 0
+            // i = 1
+            // i = 2 
+            // i = 3 
+            // i = 4 
+            console.log("I previously lived in " , user.previousAddresses[i]);
+        }
+
+
+        console.log(user.previousAddresses);
+
+        /*
+            variables let XXX 
+            variables can be numbers , decimals , strings , array , objects and combinations like array of objects or objects that conain other variables
+
+            to create a conditional execution block we use 
+                if (CONDITION) { 
+                    BLOCK 
+                } else if (CONDITION 2) {
+                    BLOCK 2
+                } else { 
+                    BLOCK N
+                }
+            
+            to access all elements in a array we can use loops 
+            for ( let i = INITIAL VALUE  , CONDITION OF EXIT , INCREMENT ex: i = i+1 ) {
+                REPEATABLE BLOCK FOR EACH ELEMENT OF THE ARRAY WE WANT TO TRAVERSE 
+            }
+         */
+        
+
+       </script>
+
+
+       document .getElementById ("demo") .addEventListener ("keypress" , myFuntion);
+
+function myFuntion (){
+    document .getElementById ("demo") .innerHTML = "you clicked!" ;
+}
